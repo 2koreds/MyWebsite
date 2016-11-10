@@ -1,0 +1,120 @@
+body {
+	position: relative;
+	background-image: url("/MyWebsite/images/background.jpg");
+	background-repeat: repeat;
+	color: #fff;
+}
+
+body h1 {
+	font-size: 32px;
+	color: blue;
+}
+
+div#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+div#header {
+	position: relative;
+	overflow: auto;
+}
+
+div#header img {
+	float: left;
+	padding-right: 5px;
+}
+
+div#header h1 {
+	position: relative;
+	top: 90px;
+}
+
+div#header nav {
+	clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav li a:hover {
+    background-color: #111;
+}
+
+form {
+	position: relative;
+	overflow: auto;
+	border: 1px solid #000;
+	margin: 5px 0px 5px 0px;
+	background-color: grey;
+	color: black;
+}
+
+form label {
+	display: inline-block;
+	text-align: right;
+	float: left;
+	clear: both;
+}
+
+form input {
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+
+form textarea {
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+
+form button {
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+
+div#about {
+	position: relative;
+	overflow: auto;
+	padding-top: 5px;
+}
+
+div#about img {
+	float: left;
+	padding-right: 5px;
+}
+
+div#wrapper a#mailTo {
+	color: #fff;
+}
+
+div#wrapper a#mailTo:hover {
+	background-color: gray;
+}
+
+footer {
+	padding-top: 30px;
+}
