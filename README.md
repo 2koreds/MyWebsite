@@ -1,6 +1,6 @@
 # Personal Website Starting files
 
-Personal Website starting files; Created for a homework assignment.
+Personal Website starting files using Java Servlets; Created for a homework assignment.
 
 ##Author: Matthew George
 
